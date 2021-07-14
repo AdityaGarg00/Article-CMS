@@ -1,0 +1,29 @@
+2021-06-13T07:15:04  Welcome, you are now connected to log-streaming service.
+
+Starting Log Tail -n 10 of existing logs ----
+/appsvctmp/volatile/logs/runtime/061dc0db5c4c7a9a0560acbdcaadccf1a33a0b8fe729508a2707bff0bb90b49b.log
+2021-06-13T07:14:13.830733514Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:13 +0000] "GET /login?next=%2F HTTP/1.1" 200 3010 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:14.145938590Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:14 +0000] "GET /static/content/bootstrap.min.css HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:14.155842353Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:14 +0000] "GET /static/content/site.css HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:14.166098621Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:14 +0000] "GET /static/scripts/modernizr-2.6.2.js HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:14.988306913Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:14 +0000] "GET /static/scripts/jquery-1.10.2.js HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:14.999002483Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:14 +0000] "GET /static/scripts/bootstrap.js HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:15.039584230Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:15 +0000] "GET /static/scripts/respond.js HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:15.274766877Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:15 +0000] "GET /static/images/sign-in-with-ms.svg HTTP/1.1" 200 0 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:25.616430120Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:25 +0000] "POST /login?next=%2F HTTP/1.1" 302 209 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+2021-06-13T07:14:25.930512736Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:14:25 +0000] "GET / HTTP/1.1" 200 3530 "http://cms-adi.azurewebsites.net/login?next=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+
+
+2021-06-13T07:15:14.174844569Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:15:14 +0000] "GET /logout HTTP/1.1" 302 219 "http://cms-adi.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+
+2021-06-13T07:15:14.932212208Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:15:14 +0000] "GET /login HTTP/1.1" 200 2863 "http://cms-adi.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+
+2021-06-13T07:15:24.920215875Z: [ERROR]  [2021-06-13 07:15:24,919] ERROR in views: Invalid login attempt!
+2021-06-13T07:15:24.920923786Z: [ERROR]  Invalid login attempt!
+2021-06-13T07:15:24.925748755Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:15:24 +0000] "POST /login HTTP/1.1" 302 219 "http://cms-adi.azurewebsites.net/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+
+2021-06-13T07:15:25.460889481Z: [INFO]  172.16.0.1 - - [13/Jun/2021:07:15:25 +0000] "GET /login HTTP/1.1" 200 3004 "http://cms-adi.azurewebsites.net/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
+
