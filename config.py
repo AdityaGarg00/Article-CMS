@@ -6,13 +6,13 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'cmsadi'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ByTXboa+gutwslhShsmwW3aBYNPFMj15hRfVHxadV/K5ONf1Sf7rGDBZKZNE6ulBs1afxKmNpix3GdAF2ASieg=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'TT9EKjfC946kxPjPCHkFjDTcbJN7b1liBv2tapTJpEg0AW5U8GP1f/wZ9QDHVoe2THBAP/jyC3zoF6uYXN2kB5Q=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'cms-adi.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'CMS'
-    SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'adityacms'
-    SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'adityagarg*2000'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms-adi'
+    SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'aditya'
+    SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'P@ssword'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
